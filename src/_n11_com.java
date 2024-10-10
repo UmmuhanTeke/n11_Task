@@ -103,10 +103,9 @@ public class _n11_com extends BaseDriver {
 
     @DataProvider
     public Object[][] userData() {
-        Object[][] userPassword = {
+        return new Object[][] {
                 {ConfigReader.getProperty("email"), ConfigReader.getProperty("password")}
         };
-        return userPassword;
     }
 }
 
