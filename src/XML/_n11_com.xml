@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="My Suite">
+
+    <test name="My Test">
+        <parameter name="searchText" value="samsung"></parameter>
+
+        <classes>
+            <class name="_n11_com"></class>
+        </classes>
+    </test>
+
+</suite>
